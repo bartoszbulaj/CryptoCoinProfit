@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CryptoCoinProfit</string>
+    <string name="main_activity_top_text"> Top Text Main Activity</string>
+    <string name="btcusd">BTCUSD</string>
+    <string name="ltcusd">LTCUSD</string>
+    <string name="xmrusd">XMRUSD</string>
+    <string name="neousd">NEOUSD</string>
+    <string name="iotusd">IOTUSD</string>
+    <string name="dollarCourse">Dollar Course</string>
+    <string name="bitfinex_api_url_prefix">https://api.bitfinex.com/v1/pubticker/</string>
+    <string name="loading">Loading...</string>
+    <string name="zerozero">0.0000</string>
+
+
+    <string name="btc">BTC</string>
+    <string name="ltc">LTC</string>
+    <string name="neo">NEO</string>
+    <string name="xmr">XMR</string>
+    <string name="iot">IOTA</string>
+    <string name="usd">USD</string>
+    <string name="PLN">PLN</string>
+
+    <string name="bitbay">BITBAY</string>
+    <string name="bitfinex">BITFINEX</string>
+
+
+</resources>
