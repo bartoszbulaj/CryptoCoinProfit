@@ -7,7 +7,7 @@
     <string name="neousd">NEOUSD</string>
     <string name="iotusd">IOTUSD</string>
     <string name="dollarCourse">Dollar Course</string>
-    <string name="bitfinex_api_url_prefix">https://api.bitfinex.com/v1/pubticker/</string>
+    <string name="bitfinex_api_url_prefix">https://IApi.bitfinex.com/v1/pubticker/</string>
     <string name="loading">Loading...</string>
     <string name="zerozero">0.0000</string>
 
@@ -18,7 +18,12 @@
     <string name="xmr">XMR</string>
     <string name="iot">IOTA</string>
     <string name="usd">USD</string>
-    <string name="PLN">PLN</string>
+    <string name="pln">PLN</string>
+    <string name="xrp">XRP</string>
+    <string name="bch">BCH</string>
+    <string name="dash">DASH</string>
+    <string name="trx">TRX</string>
+    <string name="eth">ETH</string>
 
     <string name="bitbay">BITBAY</string>
     <string name="bitfinex">BITFINEX</string>
