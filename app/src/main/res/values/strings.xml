@@ -25,6 +25,14 @@
     <string name="trx">TRX</string>
     <string name="eth">ETH</string>
 
+    <string name="btg">BTG</string>
+    <string name="zec">ZEC</string>
+    <string name="gnt">GNT</string>
+    <string name="omg">OMG</string>
+    <string name="rep">REP</string>
+    <string name="zrx">ZRX</string>
+    <string name="bat">BAT</string>
+
     <string name="bitbay">BITBAY</string>
     <string name="bitfinex">BITFINEX</string>
 

@@ -7,18 +7,6 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/main_activity_top_text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,7 +14,7 @@
         android:layout_marginTop="8dp"
         android:text="@string/dollarCourse"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/bitbayTextView"
@@ -66,7 +54,7 @@
         android:layout_marginTop="8dp"
         android:text="@string/loading"
         app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/xmrTextView"
@@ -344,5 +332,365 @@
         android:text="@string/zerozero"
         app:layout_constraintStart_toStartOf="@+id/bitbayTextView"
         app:layout_constraintTop_toBottomOf="@+id/xrpplnBitbay" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/btg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zec"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/gnt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/omg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zrx"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/rep"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/bat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/btgusdBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/bitfinexTextView"
+        app:layout_constraintTop_toBottomOf="@+id/bchusdBitfinex" />
+
+    <TextView
+        android:id="@+id/zecusdBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/bitfinexTextView"
+        app:layout_constraintTop_toBottomOf="@+id/btgusdBitfinex" />
+
+    <TextView
+        android:id="@+id/gntusdBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/bitfinexTextView"
+        app:layout_constraintTop_toBottomOf="@+id/zecusdBitfinex" />
+
+    <TextView
+        android:id="@+id/omgusdBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/bitfinexTextView"
+        app:layout_constraintTop_toBottomOf="@+id/gntusdBitfinex" />
+
+    <TextView
+        android:id="@+id/repusdBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/bitfinexTextView"
+        app:layout_constraintTop_toBottomOf="@+id/omgusdBitfinex" />
+
+    <TextView
+        android:id="@+id/zrxusdBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/bitfinexTextView"
+        app:layout_constraintTop_toBottomOf="@+id/repusdBitfinex" />
+
+    <TextView
+        android:id="@+id/batusdBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/bitfinexTextView"
+        app:layout_constraintTop_toBottomOf="@+id/zrxusdBitfinex" />
+
+    <TextView
+        android:id="@+id/btgplnBitbay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/bitbayTextView"
+        app:layout_constraintTop_toBottomOf="@+id/bccplnBitbay" />
+
+    <TextView
+        android:id="@+id/zecplnBitbay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/bitbayTextView"
+        app:layout_constraintTop_toBottomOf="@+id/btgplnBitbay" />
+
+    <TextView
+        android:id="@+id/gntplnBitbay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/bitbayTextView"
+        app:layout_constraintTop_toBottomOf="@+id/zecplnBitbay" />
+
+    <TextView
+        android:id="@+id/omgplnBitbay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/bitbayTextView"
+        app:layout_constraintTop_toBottomOf="@+id/gntplnBitbay" />
+
+    <TextView
+        android:id="@+id/repplnBitbay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/bitbayTextView"
+        app:layout_constraintTop_toBottomOf="@+id/omgplnBitbay" />
+
+    <TextView
+        android:id="@+id/zrxplnBitbay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/bitbayTextView"
+        app:layout_constraintTop_toBottomOf="@+id/repplnBitbay" />
+
+    <TextView
+        android:id="@+id/batplnBitbay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/bitbayTextView"
+        app:layout_constraintTop_toBottomOf="@+id/zrxplnBitbay" />
+
+    <TextView
+        android:id="@+id/btcplnBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/ltcplnBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/btcplnBitfinex" />
+
+    <TextView
+        android:id="@+id/xmrplnBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/ltcplnBitfinex" />
+
+    <TextView
+        android:id="@+id/xrpplnBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/xmrplnBitfinex" />
+
+    <TextView
+        android:id="@+id/trxplnBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/xrpplnBitfinex" />
+
+    <TextView
+        android:id="@+id/ethplnBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/trxplnBitfinex" />
+
+    <TextView
+        android:id="@+id/dshplnBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/ethplnBitfinex" />
+
+    <TextView
+        android:id="@+id/bchplnBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/dshplnBitfinex" />
+
+    <TextView
+        android:id="@+id/btgplnBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/bchplnBitfinex" />
+
+    <TextView
+        android:id="@+id/zecplnBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/btgplnBitfinex" />
+
+    <TextView
+        android:id="@+id/gntplnBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/zecplnBitfinex" />
+
+    <TextView
+        android:id="@+id/omgplnBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/gntplnBitfinex" />
+
+    <TextView
+        android:id="@+id/repplnBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/omgplnBitfinex" />
+
+    <TextView
+        android:id="@+id/zrxplnBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/repplnBitfinex" />
+
+    <TextView
+        android:id="@+id/batplnBitfinex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zerozero"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/zrxplnBitfinex" />
 
 </android.support.constraint.ConstraintLayout>
